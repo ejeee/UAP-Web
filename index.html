@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasir Toko Sederhana</title>
+  </head>
+  
+  <style>
+    .title-table{
+        border: 1px solid black;;
+    }
+  </style>
+
+  <body>
+    <h1 class="title-web">Kasir Toko Sederhana</h1>
+    <table border="1">
+      <tr>
+        <td class="title-table">Kode</td>
+        <td class="title-table">Barang</td>
+        <td class="title-table">Harga</td>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Barang A</td>
+        <td >10.000</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Barang B</td>
+        <td>20.000</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Barang C</td>
+        <td>30.000</td>
+      </tr>
+    </table>
+
+    <div class="inputan-user">
+      <h1>Inputan User</h1>
+      <table border ="1">
+      <label>Masukkan Kode </label>
+      <input type="number" id="kode" />
+      <br />
+      <label>Banyaknya Barang </label>
+      <input type="number" id="barang" />
+      <br />
+      <button type="submit" id="submit" onclick="input()" style="border: 1px solid black;">Submit</button>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
