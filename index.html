@@ -6,10 +6,82 @@
     <title>Kasir Toko Sederhana</title>
   </head>
   
+
   <style>
-    .title-table{
-        border: 1px solid black;;
-    }
+    body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: grid;
+    justify-content: center;
+    justify-self: center;
+  }
+
+  td {
+    color: black;
+    border: 1px solid;
+    padding: 5px;
+  }
+
+  .title-table {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .title-web {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+  }
+
+  .navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    text-decoration: solid;
+    text-decoration-color: aliceblue;
+    gap: 15px;
+    justify-content: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+  }
+
+  #submit {
+    font-size: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: rgb(98, 116, 52); */
+    background-color: rgb(31, 41, 99);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    border: none;
+  }
+
+  #submit:hover {
+    color: whitesmoke;
+    /* background-color: rgb(112, 119, 93); */
+    background-color: rgb(156, 157, 161);
+  }
+
+  #kode {
+    margin-left: 27px;
+  }
+
+  #barang {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .inputan-user {
+    padding: 10px;
+    margin-top: 20px;
+  }
   </style>
 
   <body>
@@ -46,7 +118,7 @@
       <label>Banyaknya Barang </label>
       <input type="number" id="barang" />
       <br />
-      <button type="submit" id="submit" onclick="input()" style="border: 1px solid black;">Submit</button>
+      <button type="submit" id="submit" onclick="input()">Submit</button>
         </table>
     </div>
 
